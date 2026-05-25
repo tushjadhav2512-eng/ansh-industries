@@ -3,6 +3,10 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
+
+  // IMPORTANT FOR GITHUB PAGES
+  base: "/ansh-industries/",
+
   server: {
     port: 5173,
     proxy: {
@@ -10,8 +14,10 @@ export default defineConfig({
       "/uploads": "http://localhost:5000"
     }
   },
+
   build: {
     chunkSizeWarningLimit: 900,
+
     rollupOptions: {
       output: {
         manualChunks: {
