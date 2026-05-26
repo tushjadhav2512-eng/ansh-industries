@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
 
   // IMPORTANT FOR GITHUB PAGES
-  base: "/ansh-industries/",
+  base: "./",
 
   server: {
     port: 5173,
