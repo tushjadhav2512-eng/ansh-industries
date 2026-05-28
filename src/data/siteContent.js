@@ -65,9 +65,9 @@ export const heroSlides = [
 export const services = [
   { title: "Sheet Metal Press Components", description: "Precision press components manufactured on 5 Ton to 75 Ton mechanical power press machines.", image: asset("page-11-image-08-ba259a2ebe.jpg"), icon: "Cog" },
   { title: "Sheet Metal Fabrication", description: "Versatile fabrication for metal sheets, pipes and bars in MS, SS and aluminium.", image: asset("page-12-image-08-738c8112f2.jpg"), icon: "Factory" },
-  { title: "MIG Welding", description: "CO2 MIG welding setup for durable industrial fabrication and assemblies.", image: asset("page-08-image-09-b709b3752c.jpg"), icon: "Flame" },
-  { title: "TIG Welding", description: "Argon TIG AC/DC welding for stainless steel and precision fabrication work.", image: asset("page-09-image-08-573194056a.jpg"), icon: "Zap" },
-  { title: "Arc Welding", description: "Arc welding capability for robust structures, brackets and production fixtures.", image: asset("page-10-image-08-4574a2ae23.jpg"), icon: "Wrench" },
+  { title: "MIG Welding", description: "CO2 MIG welding setup for durable industrial fabrication and assemblies.", image: asset("Mig-machine.jpg"), icon: "Flame" },
+  { title: "TIG Welding", description: "Argon TIG AC/DC welding for stainless steel and precision fabrication work.", image: asset("Tig-machine.jpg"), icon: "Zap" },
+  { title: "Arc Welding", description: "Arc welding capability for robust structures, brackets and production fixtures.", image: asset("Arc-machine.jpg"), icon: "Wrench" },
   { title: "SS Fabrication", description: "Stainless steel brackets, tables, buckets and custom SS fabricated products.", image: asset("page-16-image-09-6ab177caea.jpg"), icon: "ShieldCheck" },
   { title: "Industrial Fabrication", description: "Channel structures, conveyor brackets, gratings, elevator boxes and industrial assemblies.", image: asset("page-15-image-09-2b52e26f7d.jpg"), icon: "Blocks" },
   { title: "Custom Manufacturing", description: "Requirement-led metal manufacturing with bending, shearing, drilling and spray painting support.", image: asset("page-14-image-08-de50569bab.jpg"), icon: "Settings2" }
