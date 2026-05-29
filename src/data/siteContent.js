@@ -57,9 +57,9 @@ export const profile = {
 const asset = (name) => `/assets/company/${name}`;
 
 export const heroSlides = [
-  { title: "Power Press Manufacturing", subtitle: "From 5 Ton to 75 Ton mechanical press machines.", image: asset("page-06-image-08-021a5497a3.jpg") },
-  { title: "Industrial Fabrication Floor", subtitle: "Custom fabrication across MS, SS and aluminium.", image: asset("page-04-image-08-f1ef75a0f4.jpg") },
-  { title: "Welding & Assembly Capability", subtitle: "MIG, TIG AC/DC and Arc welding for reliable assemblies.", image: asset("page-08-image-08-e879f77892.jpg") }
+  { title: "Power Press Manufacturing", subtitle: "From 5 Ton to 75 Ton mechanical press machines.", image: asset("cmp1.jpeg") },
+  { title: "Industrial Fabrication Floor", subtitle: "Custom fabrication across MS, SS and aluminium.", image: asset("cmp.jpeg") },
+  { title: "Welding & Assembly Capability", subtitle: "MIG, TIG AC/DC and Arc welding for reliable assemblies.", image: asset("cmp2.jpeg") }
 ];
 
 export const services = [
@@ -77,9 +77,10 @@ export const infrastructure = [
   { title: "Factory Exterior", tag: "Factory", image: asset("page-04-image-08-f1ef75a0f4.jpg") },
   { title: "Manufacturing Shed", tag: "Factory", image: asset("page-04-image-09-60a916d85e.jpg") },
   { title: "Shop Building", tag: "Factory", image: asset("page-04-image-10-654db65ae0.jpg") },
-  { title: "Press Shop", tag: "Press Shop", image: asset("page-06-image-08-021a5497a3.jpg") },
+  { title: "Press Shop", tag: "Press Shop", image: asset("cmp1.jpeg") },
   { title: "Shearing Machine", tag: "Machines", image: asset("page-07-image-08-fd2c655084.jpg") },
-  { title: "Metal Box Bending", tag: "Machines", image: asset("page-07-image-09-a1ef33f062.jpg") },
+  { title: "Metal Box Bending", tag: "Machines", image: asset("box.jpeg") },
+  { title: "Bending Machine", tag: "3Meter x 3mm", image: asset("comp4.jpeg") },
   { title: "MIG Welding Setup", tag: "Welding", image: asset("page-08-image-08-e879f77892.jpg") },
   { title: "TIG AC/DC Welding", tag: "Welding", image: asset("page-09-image-08-573194056a.jpg") },
   { title: "Arc Welding Setup", tag: "Welding", image: asset("page-10-image-09-540b0c5c7b.jpg") }
