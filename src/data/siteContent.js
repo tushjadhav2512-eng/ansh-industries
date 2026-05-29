@@ -65,7 +65,7 @@ export const heroSlides = [
 export const services = [
   { title: "Sheet Metal Press Components", description: "Precision press components manufactured on 5 Ton to 75 Ton mechanical power press machines.", image: asset("page-11-image-08-ba259a2ebe.jpg"), icon: "Cog" },
   { title: "Sheet Metal Fabrication", description: "Versatile fabrication for metal sheets, pipes and bars in MS, SS and aluminium.", image: asset("page-12-image-08-738c8112f2.jpg"), icon: "Factory" },
-  { title: "MIG Welding", description: "CO2 MIG welding setup for durable industrial fabrication and assemblies.", image: asset("Mig-machine.jpeg"), icon: "Flame" },
+  { title: "MIG Welding", description: "CO2 MIG welding setup for durable industrial fabrication and assemblies.", image: asset("mig-machine.jpeg"), icon: "Flame" },
   { title: "TIG Welding", description: "Argon TIG AC/DC welding for stainless steel and precision fabrication work.", image: asset("Tig-machine.jpeg"), icon: "Zap" },
   { title: "Arc Welding", description: "Arc welding capability for robust structures, brackets and production fixtures.", image: asset("Arc-machine.jpeg"), icon: "Wrench" },
   { title: "SS Fabrication", description: "Stainless steel brackets, tables, buckets and custom SS fabricated products.", image: asset("page-16-image-09-6ab177caea.jpg"), icon: "ShieldCheck" },
@@ -86,7 +86,7 @@ export const infrastructure = [
 ];
 
 export const products = [
-  { title: "Pressed Metal Clips", category: "Sheet Metal Components", image: asset("part.jpg") },
+  { title: "Pressed Metal Clips", category: "Sheet Metal Components", image: asset("part.jpeg") },
   { title: "Sheet Metal Press Component", category: "Sheet Metal Components", image: asset("page-11-image-08-ba259a2ebe.jpg") },
   { title: "Paint Mixer / Stirrer", category: "Stirrers", image: asset("page-12-image-08-738c8112f2.jpg") },
   { title: "Fabrication Stirrer", category: "Stirrers", image: asset("page-13-image-09-f1169b9871.jpg") },
