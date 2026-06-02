@@ -134,3 +134,17 @@ export const valuedCustomers = [
   "Om Shree Engg, Kupwad",
   "Eibenstock Positron, Tardal"
 ];
+export const futurePlans = [
+  {
+    title: "500 Ton Press Machine",
+    description: "Expansion of press shop capacity up to 500 Ton for heavy-duty sheet metal components."
+  },
+  {
+    title: "3 kW Fiber Laser Cutting Machine",
+    description: "High precision laser cutting capability for complex sheet metal profiles and faster production."
+  },
+  {
+    title: "CNC Bending Machine",
+    description: "Bending capacity up to 6 mm thickness × 3000 mm length for accurate and repeatable fabrication."
+  }
+];
