@@ -107,3 +107,18 @@ export const testimonials = [
   { quote: "Reliable fabrication support with practical shop-floor understanding and consistent finishing.", name: "Industrial Buyer", role: "Fabrication Requirement" },
   { quote: "Good capability mix for press components, welding and custom metal assemblies under one roof.", name: "OEM Partner", role: "Sheet Metal Components" }
 ];
+export const measuringInstruments = [
+  { name: "Digital Vernier (Mitutoyo)", range: "0-200 mm" },
+  { name: "Digital Vernier (Baker)", range: "0-300 mm" },
+  { name: "Digital Vernier (Baker)", range: "0-150 mm" },
+  { name: "Simple Vernier (Mitutoyo)", range: "0-300 mm" },
+  { name: "Micrometer", range: "0-25 mm" },
+  { name: "Micrometer", range: "25-50 mm" },
+  { name: "Digital Height Gauge (Baker)", range: "0-300 mm" },
+  { name: "Surface Plate", range: "400 x 400 mm" },
+  { name: "Radius Gauge", range: "1.0 - 7.0 mm" },
+  { name: "Radius Gauge", range: "7.0 - 15.0 mm" },
+  { name: "Degree Protector", range: "0-180°" },
+  { name: "Filler Gauge", range: "0.01 - 0.1 mm" },
+  { name: "Magnetic V Block", range: '6"' }
+];
