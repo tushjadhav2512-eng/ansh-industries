@@ -2,7 +2,7 @@ import { Building2, CheckCircle2 } from "lucide-react";
 import Reveal from "../components/Reveal";
 import Section from "../components/Section";
 import SEO from "../components/SEO";
-import { infrastructure, profile } from "../data/siteContent";
+import { infrastructure, profile, valuedCustomers } from "../data/siteContent";
 
 export default function About() {
   const timeline = ["Superior quality sheet metal press components", "Versatile fabrication for sheets, pipes and bars", "Welding and finishing support", "Long-term customer partnerships"];
@@ -26,6 +26,20 @@ export default function About() {
       </Section>
       <Section eyebrow="Manufacturing Strength" title="Profile-backed facilities with a practical process chain.">
         <div className="timeline">{timeline.map((item, index) => <Reveal className="timeline-item" key={item}><span>{String(index + 1).padStart(2, "0")}</span><h3>{item}</h3></Reveal>)}</div>
+      </Section>
+      <Section eyebrow="Trusted By" title="Our Valued Customers">
+        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+          {valuedCustomers.map((customer, i) => (
+            <Reveal
+              key={customer}
+              delay={i * 0.04}
+              className="rounded-2xl border border-white/10 bg-metal-900/50 p-5">
+              <h3 className="text-lg font-semibold">
+                {customer}
+              </h3>
+            </Reveal>
+          ))}
+        </div>
       </Section>
     </main>
   );
