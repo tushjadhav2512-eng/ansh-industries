@@ -88,7 +88,7 @@ export const infrastructure = [
 
 export const products = [
   { title: "Pressed Metal Clips", category: "Sheet Metal Components", image: asset("part.jpeg") },
-  { title: "Sheet Metal Press Component", category: "Sheet Metal Components", image: asset("page-11-image-08-ba259a2ebe.jpg") },
+  { title: "Sheet Metal Press Component", category: "Sheet Metal Components", image: asset("Press1.png") },
   { title: "Paint Mixer / Stirrer", category: "Stirrers", image: asset("page-12-image-08-738c8112f2.jpg") },
   { title: "Fabrication Stirrer", category: "Stirrers", image: asset("Fabrication.png") },
   { title: "Industrial Grating", category: "Gratings", image: asset("Grating.png") },
