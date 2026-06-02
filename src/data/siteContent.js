@@ -80,7 +80,7 @@ export const infrastructure = [
   { title: "Press Shop", tag: "Press Shop", image: asset("cmp1.jpeg") },
   { title: "Shearing Machine", tag: "Machines", image: asset("Shearing.png") },
   { title: "Metal Box Bending", tag: "Machines", image: asset("box.jpeg") },
-  { title: "Bending Machine", tag: "3Meter x 3mm", image: asset("comp4.png") },
+  { title: "Bending Machine", tag: "3Meter x 3mm", image: asset("comp4.PNG") },
   { title: "MIG Welding Setup", tag: "Welding", image: asset("page-08-image-08-e879f77892.jpg") },
   { title: "TIG AC/DC Welding", tag: "Welding", image: asset("page-09-image-08-573194056a.jpg") },
   { title: "Arc Welding Setup", tag: "Welding", image: asset("page-10-image-09-540b0c5c7b.jpg") }
