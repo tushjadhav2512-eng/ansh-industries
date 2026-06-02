@@ -63,7 +63,7 @@ export const heroSlides = [
 ];
 
 export const services = [
-  { title: "Sheet Metal Press Components", description: "Precision press components manufactured on 5 Ton to 75 Ton mechanical power press machines.", image: asset("page-11-image-08-ba259a2ebe.jpg"), icon: "Cog" },
+  { title: "Sheet Metal Press Components", description: "Precision press components manufactured on 5 Ton to 75 Ton mechanical power press machines.", image: asset("Press1.png"), icon: "Cog" },
   { title: "Sheet Metal Fabrication", description: "Versatile fabrication for metal sheets, pipes and bars in MS, SS and aluminium.", image: asset("page-12-image-08-738c8112f2.jpg"), icon: "Factory" },
   { title: "MIG Welding", description: "CO2 MIG welding setup for durable industrial fabrication and assemblies.", image: asset("mig-machine.jpeg"), icon: "Flame" },
   { title: "TIG Welding", description: "Argon TIG AC/DC welding for stainless steel and precision fabrication work.", image: asset("Tig-machine.jpeg"), icon: "Zap" },
