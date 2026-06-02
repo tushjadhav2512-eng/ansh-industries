@@ -122,3 +122,15 @@ export const measuringInstruments = [
   { name: "Filler Gauge", range: "0.01 - 0.1 mm" },
   { name: "Magnetic V Block", range: '6"' }
 ];
+export const valuedCustomers = [
+  "Rajkumar Industries, Kupwad",
+  "Samruddhi Building Systems, Sangli",
+  "KPT, Jaysingpur",
+  "Pyrox, Bangalore",
+  "Utkarsh Fab Tech",
+  "Yash Associates, Kupwad",
+  "Tatya Chain Industries, Sangli",
+  "Satyam Engg, Shirdon",
+  "Om Shree Engg, Kupwad",
+  "Eibenstock Positron, Tardal"
+];
