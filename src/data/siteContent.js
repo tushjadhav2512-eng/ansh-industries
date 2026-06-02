@@ -90,7 +90,7 @@ export const products = [
   { title: "Pressed Metal Clips", category: "Sheet Metal Components", image: asset("part.jpeg") },
   { title: "Sheet Metal Press Component", category: "Sheet Metal Components", image: asset("page-11-image-08-ba259a2ebe.jpg") },
   { title: "Paint Mixer / Stirrer", category: "Stirrers", image: asset("page-12-image-08-738c8112f2.jpg") },
-  { title: "Fabrication Stirrer", category: "Stirrers", image: asset("page-13-image-09-f1169b9871.jpg") },
+  { title: "Fabrication Stirrer", category: "Stirrers", image: asset("Fabrication.png") },
   { title: "Industrial Grating", category: "Gratings", image: asset("Grating.png") },
   { title: "Elevator Box", category: "Elevator Boxes", image: asset("Elevator.png") },
   { title: "Rake Fabrication", category: "Fabrication Products", image: asset("Rake.png") },
