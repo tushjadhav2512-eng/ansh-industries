@@ -3,7 +3,7 @@ import ImageModal from "../components/ImageModal";
 import Reveal from "../components/Reveal";
 import Section from "../components/Section";
 import SEO from "../components/SEO";
-import { infrastructure, profile } from "../data/siteContent";
+import { infrastructure, profile, measuringInstruments } from "../data/siteContent";
 
 export default function Infrastructure() {
   const [active, setActive] = useState(null);
@@ -14,6 +14,21 @@ export default function Infrastructure() {
         <div className="grid gap-5 md:grid-cols-3">{infrastructure.map((item, i) => <Reveal delay={i * .04} className="image-tile cursor-pointer" key={item.title}><button onClick={() => setActive(item)}><img src={item.image} alt={item.title} loading="lazy" /><span>{item.tag}</span><h3>{item.title}</h3></button></Reveal>)}</div>
       </Section>
       <Section eyebrow="Facilities" title="Machinery details from the profile." className="bg-metal-900/55">
+      <Section eyebrow="Quality Control" title="Measuring Instruments & Inspection Equipment">
+        <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+          {measuringInstruments.map((item, i) => (
+            <Reveal
+              key={item.name + i}
+              delay={i * 0.04}
+              className="machine-card"
+            >
+              <p>Range</p>
+              <h3>{item.name}</h3>
+              <span>{item.range}</span>
+            </Reveal>
+          ))}
+        </div>
+      </Section>
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">{profile.facilities.map((item) => <Reveal className="machine-card" key={item.label}><p>{item.count}</p><h3>{item.label}</h3><span>{item.value}</span></Reveal>)}</div>
       </Section>
       <ImageModal item={active} onClose={() => setActive(null)} />
