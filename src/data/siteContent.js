@@ -69,8 +69,8 @@ export const services = [
   { title: "TIG Welding", description: "Argon TIG AC/DC welding for stainless steel and precision fabrication work.", image: asset("Tig-machine.jpeg"), icon: "Zap" },
   { title: "Arc Welding", description: "Arc welding capability for robust structures, brackets and production fixtures.", image: asset("Arc-machine.jpeg"), icon: "Wrench" },
   { title: "SS Fabrication", description: "Stainless steel brackets, tables, buckets and custom SS fabricated products.", image: asset("page-16-image-09-6ab177caea.jpg"), icon: "ShieldCheck" },
-  { title: "Industrial Fabrication", description: "Channel structures, conveyor brackets, gratings, elevator boxes and industrial assemblies.", image: asset("page-15-image-09-2b52e26f7d.jpg"), icon: "Blocks" },
-  { title: "Custom Manufacturing", description: "Requirement-led metal manufacturing with bending, shearing, drilling and spray painting support.", image: asset("page-14-image-08-de50569bab.jpg"), icon: "Settings2" }
+  { title: "Industrial Fabrication", description: "Channel structures, conveyor brackets, gratings, elevator boxes and industrial assemblies.", image: asset("industrial.jpeg"), icon: "Blocks" },
+  { title: "Custom Manufacturing", description: "Requirement-led metal manufacturing with bending, shearing, drilling and spray painting support.", image: asset("custome.jpeg"), icon: "Settings2" }
 ];
 
 export const infrastructure = [
