@@ -78,7 +78,7 @@ export const infrastructure = [
   { title: "Manufacturing Shed", tag: "Factory", image: asset("page-04-image-09-60a916d85e.jpg") },
   { title: "Shop Building", tag: "Factory", image: asset("page-04-image-10-654db65ae0.jpg") },
   { title: "Press Shop", tag: "Press Shop", image: asset("cmp1.jpeg") },
-  { title: "Shearing Machine", tag: "Machines", image: asset("page-07-image-08-fd2c655084.jpg") },
+  { title: "Shearing Machine", tag: "Machines", image: asset("Shearing.jpeg") },
   { title: "Metal Box Bending", tag: "Machines", image: asset("box.jpeg") },
   { title: "Bending Machine", tag: "3Meter x 3mm", image: asset("comp4.jpeg") },
   { title: "MIG Welding Setup", tag: "Welding", image: asset("page-08-image-08-e879f77892.jpg") },
