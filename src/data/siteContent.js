@@ -65,9 +65,9 @@ export const heroSlides = [
 export const services = [
   { title: "Sheet Metal Press Components", description: "Precision press components manufactured on 5 Ton to 75 Ton mechanical power press machines.", image: asset("Press1.png"), icon: "Cog" },
   { title: "Sheet Metal Fabrication", description: "Versatile fabrication for metal sheets, pipes and bars in MS, SS and aluminium.", image: asset("page-12-image-08-738c8112f2.jpg"), icon: "Factory" },
-  { title: "MIG Welding", description: "CO2 MIG welding setup for durable industrial fabrication and assemblies.", image: asset("mig-machine.jpeg"), icon: "Flame" },
-  { title: "TIG Welding", description: "Argon TIG AC/DC welding for stainless steel and precision fabrication work.", image: asset("Tig-machine.jpeg"), icon: "Zap" },
-  { title: "Arc Welding", description: "Arc welding capability for robust structures, brackets and production fixtures.", image: asset("Arc-machine.jpeg"), icon: "Wrench" },
+  { title: "MIG Welding", description: "CO2 MIG welding setup for durable industrial fabrication and assemblies.", image: asset("mig.png"), icon: "Flame" },
+  { title: "TIG Welding", description: "Argon TIG AC/DC welding for stainless steel and precision fabrication work.", image: asset("tig.png"), icon: "Zap" },
+  { title: "Arc Welding", description: "Arc welding capability for robust structures, brackets and production fixtures.", image: asset("arc.png"), icon: "Wrench" },
   { title: "SS Fabrication", description: "Stainless steel brackets, tables, buckets and custom SS fabricated products.", image: asset("ss.jpeg"), icon: "ShieldCheck" },
   { title: "Industrial Fabrication", description: "Channel structures, conveyor brackets, gratings, elevator boxes and industrial assemblies.", image: asset("industrial.jpeg"), icon: "Blocks" },
   { title: "Custom Manufacturing", description: "Requirement-led metal manufacturing with bending, shearing, drilling and spray painting support.", image: asset("custome.jpeg"), icon: "Settings2" }
