@@ -61,7 +61,7 @@ export default function Home() {
       </Section>
       <Section eyebrow="Why Choose Us" title="Practical manufacturing capability under one roof.">
         <div className="grid gap-5 md:grid-cols-3">
-          {[["Press range", "5 Ton to 75 Ton mechanical power press capability.", Factory], ["Multi-process shop", "Pressing, shearing, bending, welding, drilling and painting.", Award], ["Customer focus", "Reliable, timely and efficient solutions tailored to requirements.", Clock]].map(([title, text, Icon], i) => (
+          {[["Press range", "5 Ton to 110 Ton mechanical power press capability.", Factory], ["Multi-process shop", "Pressing, shearing, bending, welding, drilling and painting.", Award], ["Customer focus", "Reliable, timely and efficient solutions tailored to requirements.", Clock]].map(([title, text, Icon], i) => (
             <Reveal delay={i * .06} className="glass-card p-7" key={title}><Icon className="mb-5 text-forge" /><h3 className="text-xl font-bold text-white">{title}</h3><p className="mt-3 leading-7 text-slate-400">{text}</p></Reveal>
           ))}
         </div>
