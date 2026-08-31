@@ -83,7 +83,8 @@ export const infrastructure = [
   { title: "Bending Machine", tag: "3Meter x 3mm", image: asset("comp4.PNG") },
   { title: "MIG Welding Setup", tag: "Welding", image: asset("mig.png") },
   { title: "TIG AC/DC Welding", tag: "Welding", image: asset("tig.png") },
-  { title: "Arc Welding Setup", tag: "Welding", image: asset("arc.png") }
+  { title: "Arc Welding Setup", tag: "Welding", image: asset("arc.png") },
+  { title: "110 Ton Mechanical Power Press", tag: "Machines", image: asset("press110.jpg") }
 ];
 
 export const products = [
