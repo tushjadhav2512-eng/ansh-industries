@@ -133,8 +133,8 @@ export const valuedCustomers = [
   "Tatya Chain Industries, Sangli",
   "Satyam Engg, Shirdon",
   "Om Shree Engg, Kupwad",
-  "Eibenstock Positron, Tardal"
-  "SK Industries"
+  "Eibenstock Positron, Tardal",
+  "SK Industries",
   "Akshay Industries"
 ];
 export const futurePlans = [
