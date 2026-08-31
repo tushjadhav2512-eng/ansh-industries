@@ -26,7 +26,7 @@ export const profile = {
   ],
   materials: ["MS", "SS", "Aluminium"],
   capabilities: [
-    "5 Ton to 75 Ton Mechanical Power Press",
+    "5 Ton to 110 Ton Mechanical Power Press",
     "MIG Welding",
     "TIG AC/DC Welding",
     "Arc Welding",
