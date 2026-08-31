@@ -6,7 +6,7 @@ export const contact = {
   gstin: "27CEGPA5020L1ZQ",
   address: "Gat No. 201/6, 16C, Near Rajkumar Unit 2, Bapukaka Nagar, MIDC Kupwad Block, Sangli MH 416 436",
   whatsapp: "919834406900",
-  mapQuery: "Gat No. 201/6 16C Bapukaka Nagar MIDC Kupwad Sangli Maharashtra 416436"
+  mapQuery: "Beside RAJKUMAR INDUSTRIES, PLANT-2, MIDC Kupwad Sangli Maharashtra 416436"
 };
 
 export const profile = {
