@@ -36,7 +36,7 @@ export const profile = {
     "Drill Machines"
   ],
   facilities: [
-    { label: "Mechanical Power Press", value: "5T, 10T, 20T, 30T, 50T, 75T", count: "10 machines" },
+    { label: "Mechanical Power Press", value: "5T, 10T, 20T, 30T, 50T, 75T, 110T", count: "11 machines" },
     { label: "Fly Press Machines", value: "Manual forming support", count: "2 machines" },
     { label: "Sheet Shearing Machine", value: "1270 x 2mm", count: "1 machine" },
     { label: "MIG (CO2) Welding", value: "Fabrication welding", count: "4 machines" },
@@ -47,8 +47,8 @@ export const profile = {
     { label: "Spray Painting", value: "Surface finishing", count: "1 setup" }
   ],
   stats: [
-    { label: "Power Press Capacity", value: 75, suffix: " Ton" },
-    { label: "Press Machines", value: 10, suffix: "+" },
+    { label: "Power Press Capacity", value: 110, suffix: " Ton" },
+    { label: "Press Machines", value: 11, suffix: "+" },
     { label: "Welding Machines", value: 9, suffix: "" },
     { label: "Material Grades", value: 3, suffix: "+" }
   ]
@@ -57,13 +57,13 @@ export const profile = {
 const asset = (name) => `/assets/company/${name}`;
 
 export const heroSlides = [
-  { title: "Power Press Manufacturing", subtitle: "From 5 Ton to 75 Ton mechanical press machines.", image: asset("cmp1.jpeg") },
+  { title: "Power Press Manufacturing", subtitle: "From 5 Ton to 110 Ton mechanical press machines.", image: asset("cmp1.jpeg") },
   { title: "Industrial Fabrication Floor", subtitle: "Custom fabrication across MS, SS and aluminium.", image: asset("cmp.jpeg") },
   { title: "Welding & Assembly Capability", subtitle: "MIG, TIG AC/DC and Arc welding for reliable assemblies.", image: asset("cmp2.jpeg") }
 ];
 
 export const services = [
-  { title: "Sheet Metal Press Components", description: "Precision press components manufactured on 5 Ton to 75 Ton mechanical power press machines.", image: asset("Press1.png"), icon: "Cog" },
+  { title: "Sheet Metal Press Components", description: "Precision press components manufactured on 5 Ton to 110 Ton mechanical power press machines.", image: asset("Press1.png"), icon: "Cog" },
   { title: "Sheet Metal Fabrication", description: "Versatile fabrication for metal sheets, pipes and bars in MS, SS and aluminium.", image: asset("page-12-image-08-738c8112f2.jpg"), icon: "Factory" },
   { title: "MIG Welding", description: "CO2 MIG welding setup for durable industrial fabrication and assemblies.", image: asset("mig.png"), icon: "Flame" },
   { title: "TIG Welding", description: "Argon TIG AC/DC welding for stainless steel and precision fabrication work.", image: asset("tig.png"), icon: "Zap" },
@@ -133,6 +133,8 @@ export const valuedCustomers = [
   "Satyam Engg, Shirdon",
   "Om Shree Engg, Kupwad",
   "Eibenstock Positron, Tardal"
+  "SK Industries"
+  "Akshay Industries"
 ];
 export const futurePlans = [
   {
